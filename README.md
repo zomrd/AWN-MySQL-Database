@@ -133,9 +133,20 @@ MySQL permissions.
 
 ## Validation Status
 
-Execution in MySQL has not yet been verified.
-The scripts and query outputs will be checked before results
-are published.
+All six SQL scripts were executed successfully in MySQL Workbench.
+
+Verified:
+- Creation of the database and ten core tables.
+- Insertion of synthetic sample data.
+- Execution of all ten analytical queries.
+- Creation and querying of three reporting views.
+- Execution of the advisor procedure and discount function.
+- Salary audit trigger: an update generated an audit record,
+  and ROLLBACK removed the test record.
+
+This validation covers script execution and the demonstrated
+examples, rather than exhaustive testing of every constraint
+and input.
 
 ## References
 

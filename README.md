@@ -148,6 +148,22 @@ This validation covers script execution and the demonstrated
 examples, rather than exhaustive testing of every constraint
 and input.
 
+## Sample Analysis Findings
+
+The following findings are based on the synthetic sample data:
+
+| Metric | Result |
+| --- | --- |
+| Students | 8 |
+| Students registered for at least one service category | 7 (87.5%) |
+| Most popular category | Community Partnership: 6 students (75%) |
+| Students without any category registration | 1 |
+| Highest average advertised monthly salary by city | Dammam: SAR 2,500 |
+| Lowest average activity price by city, including free activities | Khobar: SAR 125 |
+| Average paid entertainment trip price | SAR 33.33 |
+
+These results demonstrate SQL analysis on a small synthetic dataset.
+They do not represent real student behavior or labor market conditions.
 ## References
 
 - [MySQL Documentation](https://dev.mysql.com/doc/refman/8.4/en/)
